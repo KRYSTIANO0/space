@@ -1,0 +1,58 @@
+#destination {
+  background-image: url("../../../public/images/destination/background-destination-mobile.jpg");
+}
+
+#destination header {
+  padding: 1rem;
+}
+
+#destination img {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 5rem;
+}
+
+#destination nav {
+  text-align: center;
+}
+
+#destination nav ul li {
+  font-family: 'Zen Antique', serif;
+  color: #9ca3af;
+  display: inline-block;
+  padding: 1rem 0;
+  margin: 0.4rem 0.6rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#destination nav ul li.active {
+  color: whitesmoke;
+  border-bottom: 2px solid white;
+}
+
+@media (min-width: 768px) {
+  #destination {
+    background-image: url("../../../public/images/destination/background-destination-tablet.jpg");
+  }
+  #destination .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (min-width: 1024px) {
+  #destination {
+    background-image: url("../../../public/images/destination/background-destination-desktop.jpg");
+  }
+  #destination .container {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #destination .container img {
+    padding: 0 10rem;
+  }
+}
+/*# sourceMappingURL=Destination.module.css.map */

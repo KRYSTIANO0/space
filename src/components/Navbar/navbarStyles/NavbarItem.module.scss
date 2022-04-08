@@ -1,0 +1,32 @@
+.navbar-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	p {
+		font-size: 1.2rem;
+	}
+	h1 {
+		font-size: 1.2rem;
+		font-weight: normal;
+		margin-left: 0.5rem;
+		padding: 1rem 0;
+	}
+	&.active {
+		font-weight: 700 !important;
+		h1 {
+			border-bottom: 2px solid white;
+		}
+	}
+}
+
+//media quries
+
+//tablet
+@media (min-width: 768px) {
+	.navbar-item {
+		margin: 1rem 1rem;
+		h1 {
+			letter-spacing: 0.0000099rem;
+		}
+	}
+}

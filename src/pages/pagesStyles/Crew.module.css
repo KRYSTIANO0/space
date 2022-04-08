@@ -1,0 +1,84 @@
+#crew {
+  background-image: url("../../../public/images/crew/background-crew-mobile.jpg");
+  text-align: center;
+}
+
+#crew h2 {
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  margin-top: 2rem;
+  padding: 0 1rem;
+}
+
+#crew p {
+  padding: 0 1rem;
+}
+
+#crew nav ul li {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  margin: 1.5rem 0.6rem;
+  background-color: rgba(119, 119, 119, 0.527);
+  display: inline-block;
+}
+
+#crew nav ul li.active {
+  background-color: white !important;
+}
+
+#crew img {
+  width: 100%;
+  padding: 0 1rem;
+}
+
+@media (min-width: 768px) {
+  #crew {
+    background-image: url("../../../public/images/crew/background-crew-tablet.jpg");
+    text-align: left;
+  }
+  #crew .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  #crew .container .content header {
+    padding-bottom: 4rem;
+  }
+  #crew .container img {
+    width: 50%;
+    height: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+@media (min-width: 1024px) {
+  #crew {
+    background-image: url("../../../public/images/crew/background-crew-desktop.jpg");
+    height: 100vh;
+    overflow-y: hidden;
+  }
+  #crew .container {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #crew .container .content {
+    width: 40%;
+  }
+  #crew .container .content p {
+    padding-top: 2.3rem;
+  }
+  #crew .container img {
+    padding: 0 5.1rem;
+  }
+}
+/*# sourceMappingURL=Crew.module.css.map */

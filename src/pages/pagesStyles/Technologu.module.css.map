@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAC;EACX,gBAAgB,EAAE,oEAAoE;CACtF",
+    "sources": [
+        "Technologu.module.scss"
+    ],
+    "names": [],
+    "file": "Technologu.module.css"
+}

@@ -1,0 +1,81 @@
+#crew {
+	background-image: url('../../../public/images/crew/background-crew-mobile.jpg');
+	text-align: center;
+	h2 {
+		font-weight: normal;
+		text-transform: uppercase;
+		letter-spacing: 1.2px;
+		margin-top: 2rem;
+		padding: 0 1rem;
+	}
+
+	p {
+		padding: 0 1rem;
+	}
+	nav {
+		ul {
+			li {
+				width: 1rem;
+				height: 1rem;
+				border-radius: 50%;
+				margin: 1.5rem 0.6rem;
+				background-color: rgba(119, 119, 119, 0.527);
+				display: inline-block;
+				&.active {
+					background-color: white !important;
+				}
+			}
+		}
+	}
+	img {
+		width: 100%;
+		padding: 0 1rem;
+	}
+}
+
+//media quries
+
+//tablet
+@media (min-width: 768px) {
+	#crew {
+		background-image: url('../../../public/images/crew/background-crew-tablet.jpg');
+		text-align: left;
+		.container {
+			display: flex;
+			align-items: flex-start;
+
+			.content {
+				header {
+					padding-bottom: 4rem;
+				}
+			}
+			img {
+				width: 50%;
+				height: 50%;
+				object-fit: cover;
+			}
+		}
+	}
+}
+
+//desktop
+@media (min-width: 1024px) {
+	#crew {
+		background-image: url('../../../public/images/crew/background-crew-desktop.jpg');
+		height: 100vh;
+		overflow-y: hidden;
+		.container {
+			justify-content: space-evenly;
+			align-items: center;
+			.content {
+				width: 40%;
+				p {
+					padding-top: 2.3rem;
+				}
+			}
+			img {
+				padding: 0 5.1rem;
+			}
+		}
+	}
+}

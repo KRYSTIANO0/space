@@ -1,0 +1,77 @@
+.nav {
+  position: fixed;
+  top: 1.5rem;
+  left: 1.8rem;
+  right: 1.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav .menu-btn svg {
+  font-size: 2.2rem;
+}
+
+.nav .menu-btn:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  cursor: pointer;
+}
+
+.menu {
+  width: 90%;
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  position: fixed;
+  top: 6rem;
+  left: 5%;
+}
+
+.menu span {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .nav .menu-btn svg {
+    display: none;
+  }
+  .menu {
+    width: 90%;
+    margin-left: 10%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .menu span {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .menu {
+    top: 2rem;
+  }
+  .menu span {
+    display: block;
+    width: 80rem;
+    margin-right: 3.5rem;
+    border-bottom: 1px solid white;
+  }
+}
+/*# sourceMappingURL=Navbar.module.css.map */

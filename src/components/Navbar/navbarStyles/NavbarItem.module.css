@@ -1,0 +1,40 @@
+.navbar-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar-item p {
+  font-size: 1.2rem;
+}
+
+.navbar-item h1 {
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin-left: 0.5rem;
+  padding: 1rem 0;
+}
+
+.navbar-item.active {
+  font-weight: 700 !important;
+}
+
+.navbar-item.active h1 {
+  border-bottom: 2px solid white;
+}
+
+@media (min-width: 768px) {
+  .navbar-item {
+    margin: 1rem 1rem;
+  }
+  .navbar-item h1 {
+    letter-spacing: 0.0000099rem;
+  }
+}
+/*# sourceMappingURL=NavbarItem.module.css.map */
